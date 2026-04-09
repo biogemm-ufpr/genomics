@@ -16,4 +16,20 @@ Para a detecção de mutações de ponto induzidas por repetição podemos utili
 <img src="https://raw.githubusercontent.com/biogemm-ufpr/genomics/master/_data/img/fungos/TEs/RIPper/ripper_01.png" alt="Visão geral da página inicial do The RIPper" align="center">
 </center>
 <br><br>
+Em seguida, na seção "Create a New File", clique no botão "Escolher arquivos" para selecionar um arquivo de genoma no formato FASTA em seu computador, e faça upload clicando no botão "Upload File". Nesse tutorial, utilizaremos o genoma da linhagem CBS 120486 de <i>Phyllosticta citriasiana</i>:
+<br><br>
+<center>
+<img src="https://raw.githubusercontent.com/biogemm-ufpr/genomics/master/_data/img/fungos/TEs/RIPper/ripper_02.png" alt="Upload de genoma de interesse no software The RIPper" align="center">
+</center>
+<br><br>
+Após escolha do arquivo, a ferramenta apresentará um desenho de DNA e a mensagem "Uploading File". Quando o envio for concluído, o The RIPper apresentará os dados referentes ao genoma enviado na seção "Files". Em "File Name" é possível observar o nome do arquivo (nesse caso, "PCitriasiana_CBS120486.fasta). Em "Sequence Count", a ferramenta indica o número de contigs/scaffolds presentes no arquivo FASTA, que nesse caso eram 133. Já em "Options", podemos realizar diferentes análises.
+<br><br>
+<center>
+<img src="https://raw.githubusercontent.com/biogemm-ufpr/genomics/master/_data/img/fungos/TEs/RIPper/ripper_03.png" alt="Upload de genoma de interesse no software The RIPper" align="center">
+</center>
+<br><br>
 </div>
+
+### RIP Sequence
+
+Em seguida, faça o upload do arquivo de sequências de aminoácidos das proteínas da linhagem CBS 120486 de <i>Phyllosticta citriasiana</i> utilizando a opção <i>"Upload Data"</i>.
