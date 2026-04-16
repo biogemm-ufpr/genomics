@@ -74,15 +74,15 @@ Para salvar os resultados, utilizaremos a opção <i>"Export GFF3 RIP data (Geno
 Ao abrir o arquivo GFF3 em algum editor de texto como o Notepad++, é possível observar a presença de 09 colunas:
 <br><br>
 <ol>
-<li><b>01 - seqid: </b>nome do contig ou scaffold em que a coordenada está localizada</li>
-<li><b>02 - source: </b>nome da ferramenta que gerou os dados apresentados (nesse caso, The RIPper)</li>
-<li><b>03 - type: </b>tipo de coordenada anotada (nesse caso, RIP, uma região afetada por RIP)</li>
-<li><b>04 - start: </b>posição de início da coordenada<br>
-<li><b>05 - end: </b>posição de final da coordenada</li>
-<li><b>06 - score: </b>score de confiabilidade atribuída pela ferramenta, quando aplicável</li>
-<li><b>07 - strand: </b>indica se a coordenada anotada está na fita direta (+) ou reversa (-)<br>
-<li><b>08 - phase: </b>fase de leitura, caso a coordenada se refira à uma região codificante</li>
-<li><b>09 - attributes: </b>atributos ou informaçõess adicionais fornecidas pela ferramenta. Nesse caso, podemos observar os valores dos índices Product, Substrate e Composite para cada coordenada avaliada.</li>
+<li><b>seqid: </b>nome do contig ou scaffold em que a coordenada está localizada</li>
+<li><b>source: </b>nome da ferramenta que gerou os dados apresentados (nesse caso, The RIPper)</li>
+<li><b>type: </b>tipo de coordenada anotada (nesse caso, RIP, uma região afetada por RIP)</li>
+<li><b>start: </b>posição de início da coordenada</li>
+<li><b>end: </b>posição de final da coordenada</li>
+<li><b>score: </b>score de confiabilidade atribuída pela ferramenta, quando aplicável</li>
+<li><b>strand: </b>indica se a coordenada anotada está na fita direta (+) ou reversa (-)</li>
+<li><b>phase: </b>fase de leitura, caso a coordenada se refira à uma região codificante</li>
+<li><b>attributes: </b>atributos ou informaçõess adicionais fornecidas pela ferramenta. Nesse caso, podemos observar os valores dos índices Product, Substrate e Composite para cada coordenada avaliada.</li>
 </li>
 </ol>
 <br><br>
@@ -132,7 +132,7 @@ Na opção <i>"RIP profile"</i> podemos avaliar gerar um resumo geral do perfil 
 <li><b>Minimum Product: </b>valor mínimo do índice Composite a ser considerado</li>
 <li><b>Maximum Product: </b>valor máximo do índice Substrate a ser considerado</li>
 <li><b>Composite Index Chain: </b>quantidade mínima de janelas consecutivas com assinatura de RIP</li>
-<li><b>Change em GC content: </b>avaliação de mudanças no conteúdo GC<br>
+<li><b>Change em GC content: </b>avaliação de mudanças no conteúdo GC</li>
 </li>
 </ol>
 <br><br>
@@ -149,12 +149,12 @@ A seguir, podemos ver um exemplo de resultado da análise, utilizando os dados d
 <li><b>Number of RIP Affected Windows: </b>número de janelas avaliadas contendo assinaturas de RIP</li>
 <li><b>RIP Affected Genomic Proportion (%): </b>proporção da montagem de genoma avaliada que possui assinaturas de RIP</li>
 <li><b>Count of LRARs: </b>quantidade de grandes segmentos genômicos afetados por RIP, de acordo com a quantidade mínima de janelas consecutivas especificada nos parâmetros</li>
-<li><b>Average Size of LRARs (bp): </b>tamanho médio das LRARs em pares de bases<br>
+<li><b>Average Size of LRARs (bp): </b>tamanho médio das LRARs em pares de bases</li>
 <li><b>Average GC Content of LRARs (%): </b>conteúdo GC% médio das LRARs</li>
 <li><b>Genomic Proportion of LRARs (bp): </b>proporção da montagem de genoma que corresponde às LRARs encontradas, em pares de bases</li>
-<li><b>Product Value for LRARs: </b>valor médio do índice Product para LRARs<br>
-<li><b>Substrate Value for LRARs: </b>valor médio do índice Substrate para LRARs<br>
-<li><b>Composite Value for LRARs: </b>valor médio do índice Composite para LRARs<br>
+<li><b>Product Value for LRARs: </b>valor médio do índice Product para LRARs</li>
+<li><b>Substrate Value for LRARs: </b>valor médio do índice Substrate para LRARs</li>
+<li><b>Composite Value for LRARs: </b>valor médio do índice Composite para LRARs</li>
 </li>
 </ol>
 <br><br>
