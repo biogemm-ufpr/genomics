@@ -103,7 +103,7 @@ Na opção <i>"Calculate LRAR"</i> podemos avaliar a presença de grandes segmen
 <li><b>Minimum Product: </b>valor mínimo do índice Composite a ser considerado</li>
 <li><b>Maximum Product: </b>valor máximo do índice Substrate a ser considerado</li>
 <li><b>Composite Index Chain: </b>quantidade mínima de janelas consecutivas com assinatura de RIP</li>
-<li><b>Change em GC content: </b>avaliação de mudanças no conteúdo GC<br>
+<li><b>Change em GC content: </b>avaliação de mudanças no conteúdo GC</li>
 </ol>
 <br><br>
 <center>
