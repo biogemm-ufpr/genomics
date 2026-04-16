@@ -7,7 +7,7 @@ tags:
 - elementos transponíveis
 
 ---
-## Detecção de assinaturas de mutação de ponto induzida por repetição (repeat-induced point mutation)
+# Detecção de assinaturas de mutação de ponto induzida por repetição (repeat-induced point mutation)
 
 <div align="justify">
 Texto inicial em breve!
