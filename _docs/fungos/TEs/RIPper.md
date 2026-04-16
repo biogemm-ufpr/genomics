@@ -1,7 +1,8 @@
 ---
 title: Detecção de assinaturas de mutação de ponto induzida por repetição (repeat-induced point mutation)
 description: Softwares utilizados, The RIPper
-tags: - fungos
+tags: 
+- fungos
 - The RIPper
 - elementos transponíveis
 
@@ -43,10 +44,9 @@ Na opção <i>"RIP genome"</i> podemos avaliar as assinaturas de RIP de forma co
 <li><b>Window Size: </b>tamanho da janela a ser utilizada, em pares de bases</li>
 <li><b>Slide size: </b>tamanho da janela deslizante a ser utilizada, em pares de bases</li>
 <li><b>Minimum Composite: </b>valor mínimo do índice Composite a ser considerado</li>
-<li><b>Change em GC content: </b>avaliação de mudanças no conteúdo GC<br>
+<li><b>Change em GC content: </b>avaliação de mudanças no conteúdo GC</li>
 <li><b>Minimum Product: </b>valor mínimo do índice Composite a ser considerado</li>
 <li><b>Maximum Product: </b>valor máximo do índice Substrate a ser considerado</li>
-</li>
 </ol>
 <br><br>
 <center>
@@ -83,7 +83,6 @@ Ao abrir o arquivo GFF3 em algum editor de texto como o Notepad++, é possível 
 <li><b>strand: </b>indica se a coordenada anotada está na fita direta (+) ou reversa (-)</li>
 <li><b>phase: </b>fase de leitura, caso a coordenada se refira à uma região codificante</li>
 <li><b>attributes: </b>atributos ou informaçõess adicionais fornecidas pela ferramenta. Nesse caso, podemos observar os valores dos índices Product, Substrate e Composite para cada coordenada avaliada.</li>
-</li>
 </ol>
 <br><br>
 <center>
@@ -105,7 +104,6 @@ Na opção <i>"Calculate LRAR"</i> podemos avaliar a presença de grandes segmen
 <li><b>Maximum Product: </b>valor máximo do índice Substrate a ser considerado</li>
 <li><b>Composite Index Chain: </b>quantidade mínima de janelas consecutivas com assinatura de RIP</li>
 <li><b>Change em GC content: </b>avaliação de mudanças no conteúdo GC<br>
-</li>
 </ol>
 <br><br>
 <center>
@@ -133,7 +131,6 @@ Na opção <i>"RIP profile"</i> podemos avaliar gerar um resumo geral do perfil 
 <li><b>Maximum Product: </b>valor máximo do índice Substrate a ser considerado</li>
 <li><b>Composite Index Chain: </b>quantidade mínima de janelas consecutivas com assinatura de RIP</li>
 <li><b>Change em GC content: </b>avaliação de mudanças no conteúdo GC</li>
-</li>
 </ol>
 <br><br>
 <center>
@@ -155,7 +152,6 @@ A seguir, podemos ver um exemplo de resultado da análise, utilizando os dados d
 <li><b>Product Value for LRARs: </b>valor médio do índice Product para LRARs</li>
 <li><b>Substrate Value for LRARs: </b>valor médio do índice Substrate para LRARs</li>
 <li><b>Composite Value for LRARs: </b>valor médio do índice Composite para LRARs</li>
-</li>
 </ol>
 <br><br>
 Para realizar o download de um arquivo CSV contendo essas informações, utilizaremos a opção <i>"Download RIP Profile"</i>:
